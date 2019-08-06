@@ -11,17 +11,19 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="林中之火" startnode="1" creator="Twine" creator-version="2.3.3" ifid="4A0D9D5A-C511-4C53-B385-BF6AF033DD0B" zoom="1" format="Harlowe" format-version="3.0.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="镜面" tags="" position="665,102" size="100,100">(set: $has_key to false)
-睁开眼，发现自己跪在湖边。我的双膝和裙子浸在水里，湖面随风微微的上下起伏着。月光很明亮，微微发红，照在我的脸上。我看见自己在湖水里的模糊又陌生的倒影。我记不得自己是如何来到这里的了。
+<tw-storydata name="林中之火" startnode="1" creator="Twine" creator-version="2.3.3" ifid="4A0D9D5A-C511-4C53-B385-BF6AF033DD0B" zoom="1" format="Harlowe" format-version="3.0.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">
+</script><tw-passagedata pid="1" name="镜面" tags="" position="667,133" size="100,100">(set: $has_key to false)
+睁开眼，发现自己跪在湖边。天上下着小雨，吹着微风。我的双膝和裙子浸在水里，湖面随风微微的上下起伏着。月光很明亮，微微发红，照在我的脸上。我看见自己在湖水里的模糊又陌生的倒影。我记不得自己是如何来到这里的了。
 
 抬起头来看到岸边停靠着一支搁浅了的木船，也许我是乘坐那支木船过来的吧。
 
 背后有一堵长长的栅栏和一扇铁门，栅栏后面是一片漆黑的森林。
 
 [[靠近木筏]]
-[[打开铁门]]</tw-passagedata><tw-passagedata pid="2" name="靠近木筏" tags="" position="538.6666666666666,184.66666666666666" size="100,100">木筏上有一封信和一枚钥匙。
+[[打开铁门]]</tw-passagedata><tw-passagedata pid="2" name="靠近木筏" tags="" position="537,225" size="100,100">木筏上有一封信和一枚钥匙。
 (set: $has_key to true)
-[[阅读信件并拿起钥匙]]</tw-passagedata><tw-passagedata pid="3" name="打开铁门" tags="" position="786,192" size="100,100">(if: $has_key is false)[
+[[阅读信件并拿起钥匙]]</tw-passagedata><tw-passagedata pid="3" name="打开铁门" tags="" position="797,225" size="100,100">(if: $has_key is false)[
 铁门上长满了苔藓，锈迹斑斑。上面一道铁链将两扇门紧紧地绑在一起，铁链上似乎还有已经凝固的血迹。
 
 [[靠近木筏]]
@@ -31,12 +33,29 @@
 
 [[向更深处走去]]
 [[打开门回去]]
-]</tw-passagedata><tw-passagedata pid="4" name="向更深处走去" tags="" position="694.6666666666666,374.3333333333333" size="100,100">四周传来野兽与猫头鹰的叫声。我感到非常寒冷，眼眶四周开始漫出血丝。我发觉黑暗中似乎有一双红色的眼睛死死的盯着我。也许这是个错误的决定，我心里想。
+]</tw-passagedata><tw-passagedata pid="4" name="向更深处走去" tags="" position="666,360" size="100,100">四周传来野兽与猫头鹰的叫声。我感到非常寒冷，眼眶四周开始漫出血丝（画面逐渐desaturate）。我发觉黑暗中似乎有无数双红色的眼睛死死的盯着我。也许这是个错误的决定，我心里想。
 
 [[继续向前走]]
-[[往回走]]</tw-passagedata><tw-passagedata pid="5" name="阅读信件并拿起钥匙" tags="" position="666.6666666666666,248.33333333333331" size="100,100">[[打开铁门]]</tw-passagedata><tw-passagedata pid="6" name="打开门回去" tags="" position="816,372" size="100,100">打开铁门，发现自己依旧在森林中。木船和湖全部消失了。
+[[往回走]]</tw-passagedata><tw-passagedata pid="5" name="阅读信件并拿起钥匙" tags="" position="669,246" size="100,100">[[打开铁门]]</tw-passagedata><tw-passagedata pid="6" name="打开门回去" tags="" position="799,338" size="100,100">打开铁门，发现木船和湖全部消失了，变成了一个墓园。一棵树桩挡住了我前进的路。
 
-[[向森林深处走去-&gt;往回走]]</tw-passagedata><tw-passagedata pid="7" name="继续向前走" tags="" position="689,508" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="8" name="往回走" tags="" position="832,515" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
+[[打开铁门回到森林-&gt;向更深处走去]]</tw-passagedata><tw-passagedata pid="7" name="继续向前走" tags="" position="665,478" size="100,100">地上有暗红色拖拽的痕迹，延伸到森林的深处。
+
+[[向前走]]
+[[往回走]]</tw-passagedata><tw-passagedata pid="8" name="往回走" tags="" position="802,450" size="100,100">往回走没多久就看见铁门在我面前，被无数条链子紧紧地锁住。铁门下面流淌着暗红色的血迹。
+
+[[继续向前走]]</tw-passagedata><tw-passagedata pid="9" name="向前走" tags="" position="804,567" size="100,100">树上吊着一具尸体，舌头长长伸出来，眼球向外突出。当我靠近他时，他突然掉到了地上。一群老鼠瞬间冲出来啃噬他的尸体。
+
+[[继续往前走]]
+[[往回走]]
+</tw-passagedata><tw-passagedata pid="10" name="继续往前走" tags="" position="665,598" size="100,100">前面还吊着好几具同样的尸体。走过他们之后发现自己走到了尽头，前面被一道断层堵住了。当我靠近它的时候，突然一道闪电打在峭壁上，照出了一张惊恐状的人脸。我吓得后退了一步。
+
+[[向回走]]</tw-passagedata><tw-passagedata pid="11" name="向回走" tags="" position="804,681" size="100,100">向回走发现尸体全部掉在了地上。走了没多久发现自己又遇到了同样的脸，只是这次她的面部更加扭曲，眼睛里流出红色的血液。我发现自己的双腿不听使唤了。
+
+突然，一个鬼影朝我冲了过来。我跪倒在地上，视线变得模糊。我隐约看到一只猫从森林深处走出来，眼睛冒着红光。我闭上眼睛，倒在了地上。
+
+[[继续-&gt;篝火]]</tw-passagedata><tw-passagedata pid="12" name="篝火" tags="" position="663,717" size="100,100">我睁开眼睛，发现自己躺在一个篝火旁边。篝火的对面坐着一个男人。天上的雨停了。我站起身来。
+
+[[跟男人对话]]</tw-passagedata><tw-passagedata pid="13" name="跟男人对话" tags="" position="535,720" size="100,100">[[进入房间]]</tw-passagedata><tw-passagedata pid="14" name="进入房间" tags="" position="537,837" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
